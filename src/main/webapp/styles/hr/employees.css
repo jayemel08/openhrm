@@ -1,0 +1,175 @@
+#pageContent {
+	min-height: 700px;
+}
+
+#pageContent #mainContent #message {
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font: 15px Ubuntu;
+	background: #FFFF9C;
+	color: black;
+	
+	line-height: 30px;
+	margin-top: 10px;
+	border: 1px solid yellow;
+	border-radius: 5px;
+}
+
+#pageContent #mainContent #filterBox {
+	height: 50px;
+	margin-top: 30px;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#pageContent #mainContent #filterBox input {
+	outline: 1px solid lightgrey;
+	height: 20px;
+	padding: 5px 20px 8px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	display: block;
+	font: 15px Ubuntu;
+	color: grey;
+	text-align: center;
+}
+
+#pageContent #mainContent #dynamicArea {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent #addBar {
+	height: 30px;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 
+#pageContent #mainContent #addBar a,
+#pageContent #mainContent #addBar #backButton {
+	display: block;
+	float: left;
+	border-radius: 5px;
+	background: #AED741;
+	color: #000;
+	font: 20px Ubuntu;
+	text-decoration: none;
+	border: 3px solid #AED741;
+	padding: 3px 10px 3px 10px;
+	text-shadow: 0 0 1px #FFF;
+	box-shadow: 1px 1px 2px #000;
+	cursor: pointer;
+}
+
+#pageContent #mainContent #addBar a:hover {
+	border: 3px solid grey;
+	box-shadow: none;
+	left: 3;
+	top: 3;
+} */
+
+#pageContent #mainContent #list,
+#pageContent #mainContent #info {
+	/* border: 1px solid lightgrey; */
+	margin-top: 15px;
+}
+
+/* 
+
+#pageContent #mainContent #list .tableHeaderRow,
+#pageContent #mainContent #info .tableHeaderRow {
+		border-top: 1px solid lightgrey;
+}
+
+#pageContent #mainContent #list .tableHeaderRow, #pageContent #mainContent #list .tableRow,
+#pageContent #mainContent #info .tableHeaderRow, #pageContent #mainContent #info .tableRow  {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 30px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+/* #pageContent #mainContent #list .id, */
+/* #pageContent #mainContent #list .name,
+#pageContent #mainContent #list .manager,
+#pageContent #mainContent #list .status,
+#pageContent #mainContent #list .email,
+#pageContent #mainContent #list .edit,
+#pageContent #mainContent #list .delete {	
+	display: block;
+	float: left;
+	padding: 5px 0 5px 10px;
+	border-left: 1px solid lightgrey;
+	width: 300px;
+	overflow: hidden;
+} */
+/* 
+#pageContent #mainContent #list .tableHeaderRow .id, #pageContent #mainContent #list .tableRow .id {
+	width: 70px;
+	border-left: none; 	
+} */
+
+#pageContent #mainContent #list .name {
+	width: 216px;	
+	cursor: pointer;
+}
+
+#pageContent #mainContent #list .tableRow .name:hover {
+	background: #AED741;	
+	color: #FFFFFF;
+}
+
+#pageContent #mainContent #list .manager {
+	width: 216px;	
+}
+
+#pageContent #mainContent #list .status {	
+	width: 100px;	
+}
+
+#pageContent #mainContent #list .email {
+	width: 300px;	
+}
+
+#pageContent #mainContent #list .delete {
+	width: 30px;	
+}
+
+#pageContent #mainContent #list .edit{
+	width: 30px;	
+}
+
+#pageContent #mainContent #info .heading {
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+/* #pageContent #mainContent #info .label {
+	width: 200px;
+	border-right: 1px solid lightgrey;
+	display: block;
+	float: left;
+	height: 100%;
+	line-height: 30px;
+	padding-left: 20px;
+}
+
+#pageContent #mainContent #info .value {
+	padding-left: 20px;
+	line-height: 30px;
+} */

@@ -1,0 +1,94 @@
+#upcomingHolidays {
+	height: 400px;
+	width: 350px;
+	/* border: 1px solid lightgrey; */
+	float: right;
+}
+
+#upcomingHolidays .panelHeading,
+#details .panelHeading {
+	border: 1px solid lightgrey;
+	border-bottom: none;
+}
+
+/* #upcomingHolidays .panelData .evenRow, #upcomingHolidays .panelData .oddRow {
+	
+	height: 40px;
+	color: black;
+	font: 14px Ubuntu;
+	padding-left: 20px;
+	line-height: 40px;
+	border-bottom: 1px solid lightgrey;
+} */
+
+/* #upcomingHolidays .panelData .evenRow {
+	background: #DEFFAC;
+}
+
+#upcomingHolidays .panelData .oddRow {
+	background: #FFDED6;
+} */
+
+#upcomingHolidays .panelData .leaveDate {
+	/* display: block;
+	
+	border-right: 1px solid lightgrey;
+	float: left;
+	text-align: right;
+	height: 100%;
+	
+	padding-right: 10px; */
+	width: 130px;
+}
+
+#details {
+	min-width: 200px;
+	/* border: 1px solid lightgrey; */
+	border-bottom: none;
+	margin-right: 370px;
+}
+/* 
+#details .panelData .row {	
+	color: black;
+	font: 14px Ubuntu;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid lightgrey;
+}
+
+#details .panelHeading span {	
+	display: block;
+	float: left;
+	color: #383838;
+	padding-right: 10px;	
+	padding-bottom: 5px;
+}
+ */
+#details .panelHeading a {	
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: #383838;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+#details .panelHeading a:hover {
+	background: darkgray;
+	color: white;
+}
+
+#details .panelData .leftColumn {
+	width: 160px;
+	/* display: block;
+	border-right: 1px solid lightgrey;
+	float: left;
+	height: 100%;
+	text-align: right;
+	padding-left: 20px; */
+}
+/* 
+#details .panelData span {
+	padding-left: 20px;
+} */

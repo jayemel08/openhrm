@@ -1,0 +1,79 @@
+#pageContent #mainContent #addBar {
+	height: 30px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+/* #pageContent #mainContent #addBar a {
+	display: block;
+	float: left;
+	border-radius: 5px;
+	background: #AED741;
+	color: #000;
+	font: 20px Ubuntu;
+	text-decoration: none;
+	border: 3px solid #AED741;
+	padding: 3px 10px 3px 10px;
+	text-shadow: 0 0 1px #FFF;
+	box-shadow: 1px 1px 2px #000;
+}
+
+#pageContent #mainContent #addBar a:hover {
+	border: 3px solid grey;
+} */
+
+#pageContent #mainContent #list {
+	/* border: 1px solid lightgrey; */
+	margin-top: 15px;
+}
+/* 
+#pageContent #mainContent #list .tableHeaderRow {
+		border-top: 1px solid lightgrey;
+}
+
+#pageContent #mainContent #list .tableHeaderRow, #pageContent #mainContent #list .tableRow  {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 30px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent #list .date,
+#pageContent #mainContent #list .description,
+#pageContent #mainContent #list .delete,
+#pageContent #mainContent #list .date,
+#pageContent #mainContent #list .description,
+#pageContent #mainContent #list .delete {	
+	display: block;
+	float: left;
+	padding: 5px 0 5px 10px;
+	border-left: 1px solid lightgrey;
+	overflow: hidden;
+}
+ */
+#pageContent #mainContent #list .tableHeaderRow .date, #pageContent #mainContent #list .tableRow .date {
+	border-left: none; 
+}
+
+#pageContent #mainContent #list .date {
+	width: 250px;
+}
+
+#pageContent #mainContent #list .description {
+	width: 285px;
+}
+
+#pageContent #mainContent #list .delete {
+	width: 10px;
+}
+
+#pageContent #mainContent #list .delete img {
+	height: 20px;
+}

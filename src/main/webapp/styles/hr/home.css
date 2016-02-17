@@ -1,0 +1,95 @@
+#employeesOnLeave {
+	width: 550px;
+	border: 1px solid lightgrey;
+	float: right;
+}
+
+#employeesOnLeave .panelData .row {
+	height: 35px;
+	color: black;
+	font: 14px Ubuntu;
+	padding-left: 20px;
+	line-height: 35px;
+}
+
+
+#employeesOnLeave .panelData .empId {
+	display: block;
+	width: 75px;
+	border-right: 1px solid lightgrey;
+	float: left;
+	text-align: right;
+	height: 100%;
+	padding-right: 10px;
+}
+
+#employeesOnLeave .panelData .empName {
+	display: block;
+	width: 200px;
+	float: left;
+	height: 100%;
+	padding-left: 10px;
+}
+
+
+
+#employeeInfo {
+	min-width: 200px;
+	border: 1px solid lightgrey;
+	
+	margin-right: 600px;
+}
+
+#employeeInfo .panelData .row {	
+	color: black;
+	font: 14px Ubuntu;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#employeeInfo .panelHeading span {	
+	display: block;
+	float: left;
+	color: #383838;
+	padding-right: 10px;	
+	padding-bottom: 5px;
+}
+
+
+#employeeInfo .panelData .row:first-child {
+	padding-top: 10px;
+}
+
+#employeesOnWFH {
+	min-width: 200px;
+	border: 1px solid lightgrey;
+	margin-right: 600px;
+	margin-top: 20px; 
+}
+
+#employeesOnWFH .panelData .row {
+	height: 35px;
+	color: black;
+	font: 14px Ubuntu;
+	padding-left: 20px;
+	line-height: 35px;
+}
+
+
+#employeesOnWFH .panelData .empId {
+	display: block;
+	width: 75px;
+	border-right: 1px solid lightgrey;
+	float: left;
+	text-align: right;
+	height: 100%;
+	padding-right: 10px;
+}
+
+#employeesOnWFH .panelData .empName {
+	display: block;
+	width: 200px;
+	float: left;
+	height: 100%;
+	padding-left: 10px;
+}

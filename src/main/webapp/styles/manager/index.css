@@ -1,0 +1,84 @@
+#teamStatus {	
+	width: 500px;
+	/* border: 1px solid lightgrey; */
+	float: right;
+}
+
+#employeesOnLeave {	
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-bottom: none;
+/* 	float: right; */
+	margin-bottom: 30px;
+}
+
+#employeesOnWFH {	
+	width: 500px;
+	border: 1px solid lightgrey;
+	border-bottom: none;
+	/* float: right; */
+}
+
+#upcomingHolidays .panelData .empCode {
+	display: block;
+	width: 130px;
+	border-right: 1px solid lightgrey;
+	float: left;
+	text-align: right;
+	height: 100%;	
+	padding-right: 10px;
+}
+
+#team {
+	min-width: 200px;
+	border: 1px solid lightgrey;
+	border-bottom: none;
+	margin-right: 530px;
+}
+
+.panelData .row, 
+.panelData .row,
+.panelData .row {	
+	color: black;
+	font: 15px Ubuntu;
+	height: 35px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.panelData .row .empCode,
+.panelData .row .empName{	
+	border-right: 1px solid lightgrey;
+	height: 100%;
+	display: block;
+	float: left;
+	width: 60px;
+	padding-right: 20px;
+	line-height: 35px;
+	text-align: right;
+}
+
+.panelData .row .empName {
+	padding-left: 20px;
+	width: auto;
+	padding-right: 0px;
+	text-align: left;
+	border: none;
+}
+
+.panelHeading span {	
+	display: block;
+	float: left;
+	color: #383838;
+	padding-right: 10px;	
+	padding-bottom: 5px;
+}
+
+.panelHeading a {	
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: #383838;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}

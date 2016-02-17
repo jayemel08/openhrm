@@ -1,0 +1,228 @@
+* {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+html, body {
+	min-width: 1200px;
+	min-height: 500px;	
+	margin-bottom: 70px;
+}
+
+.clearDiv {
+	clear: both;
+}
+
+#header {
+	height: 45px;
+	background: url(../../images/header_bg.jpg);
+	box-shadow: 0 0 20px black;
+}
+
+#header a {
+	text-decoration: none;
+	color: white;
+	font: 15px Ubuntu;
+	padding-bottom: 5px;
+	line-height: 40px;
+	border-left: 1px solid #505050;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+}
+
+#header a:hover {
+	box-shadow: 0 0 60px #000 inset;
+}
+
+#header a span {
+	color: #CDE69C;
+}
+
+#leftMenuUnderlay {
+	position: fixed;
+	width: 200px;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	background: url(../../images/left_menu_bg.jpg);
+	height: 100%;
+}
+
+#leftMenu {
+	width: 200px;
+	float: left;
+	background: url(../../images/left_menu_bg.jpg);
+	
+	/* position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -10; */
+}
+
+#leftMenu ul {
+	list-style: none;
+}
+
+#leftMenu ul li{
+	font: 20px sans-serif;
+	height: 60px;
+	width: 200px;
+	border-top: 1px solid #3F3F42;
+	border-bottom: 1px solid #212123;
+}
+
+#leftMenu ul li a {
+	padding-left: 20px;	
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	float: left;
+	text-align: left;
+	padding-right: 20px;
+	padding-top: 17px;
+	padding-bottom: 20px;
+	font: 15px Ubuntu;
+	text-shadow: 0px 2px 1px black;
+	width: 150px;
+	height: 22px;
+}
+
+#leftMenu ul li a img {
+	padding-right: 15px;
+	float: left;
+}
+
+#leftMenu ul li a span {
+	margin-top: -2px;
+	display: block;
+	float: left;	
+}
+
+#leftMenu ul li:hover {
+	background: url(../../images/selected_menu_item.png);
+	border-bottom: 1px solid #111111;
+	border-top: 1px solid black;
+}
+
+#leftMenu ul .activeMenuItem {
+	background: url(../../images/selected_menu_item.png);
+	border-bottom: 1px solid #111111;
+	border-top: 1px solid black;
+
+}
+
+#leftMenu ul .activeMenuItem a {
+	color: #AED741;
+}
+
+#pageContent {
+	margin-left: 200px;
+}
+
+#pageContent #headerBar {
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#pageContent #headerBar #brandLogo img {
+	height: 50px;
+	float: left;
+}
+
+#pageContent #headerBar #title {
+	height: 50px;
+	color: #000;
+	font: 30px Ubuntu;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#pageContent #headerBar #empCode {
+	height: 50px;
+	color: #000;
+	font: 20px Ubuntu;
+	width: 200px;
+	float: right;
+	line-height: 50px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+#pageContent #mainContent {
+	/* border: 1px solid lightgrey; */
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	min-height: 400px;
+}
+
+#pageContent #mainContent .panelHeading {
+	height: 40px;
+	border-bottom: 1px solid lightgrey;
+	background: #EDEDED;
+	font: 18px Ubuntu;
+	color: #383838;
+	
+	padding-left: 20px;
+	line-height: 35px;
+}
+
+#footer {
+	background: url(../../images/footer_bg.jpg);
+	height: 40px;
+	width: 100%;
+	bottom: 0px;	
+	position: fixed;
+	box-shadow: 0 0 20px black;
+}
+
+#footer #copyrightNotice {
+	color: #FFF;
+	text-align: center;
+	font: 15px Ubuntu;
+	line-height: 40px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer #topLink a, #footer #homeLink a {
+	color: #FFF;
+	font: 15px Ubuntu;	
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;	
+}
+
+#footer #topLink a {
+	float: right;
+	border-left: 1px solid #505050;
+}
+
+#footer #homeLink a {
+	float: left;
+	border-right: 1px solid #505050;
+}
+
+#footer #topLink a:hover, #footer #homeLink a:hover {
+	box-shadow: 0 0 50px #000 inset;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/ubuntu.woff) format('woff');
+}

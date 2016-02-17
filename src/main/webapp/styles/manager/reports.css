@@ -1,0 +1,104 @@
+#pageContent #mainContent #dateSelector {
+	/* border: 1px solid lightgrey; */
+	height: 50px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#pageContent #mainContent #dateSelector input,
+#pageContent #mainContent #dateSelector label {	
+	height: 30px;
+	width: 230px;
+	margin-top: 10px;
+	font: 15px Ubuntu;	
+}
+
+#pageContent #mainContent #dateSelector input {
+	border: 1px solid lightgrey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#pageContent #mainContent .tableHeaderRow, #pageContent #mainContent .tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 40px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent .tableHeaderRow {
+	border-top: 1px solid lightgrey;
+	height: 40px;
+}
+
+#pageContent #mainContent .id,
+#pageContent #mainContent .empName,
+#pageContent #mainContent .paidleaves,
+#pageContent #mainContent .lwp,
+#pageContent #mainContent .compoff,
+#pageContent #mainContent .compoffgranted,
+#pageContent #mainContent .wfh {	
+	display: block;
+	float: left;
+	padding: 5px 0 0px 10px;
+	border-left: 1px solid lightgrey;
+	height: 35px;
+	overflow: auto;
+	width: 137px;
+	/* overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id,
+#pageContent #mainContent .tableHeaderRow .empName,
+#pageContent #mainContent .tableHeaderRow .paidleaves,
+#pageContent #mainContent .tableHeaderRow .lwp,
+#pageContent #mainContent .tableHeaderRow .compoff,
+#pageContent #mainContent .tableHeaderRow .compoffgranted,
+#pageContent #mainContent .tableHeaderRow .wfh {	
+	height: 35px;
+	width: 137px;
+	/*overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id, #pageContent #mainContent .tableRow .id {
+	width: 70px;
+	border-left: none; 	
+}
+
+#pageContent #mainContent .tableHeaderRow .empName,
+#pageContent #mainContent .tableRow .empName {
+	width: 200px;
+}
+
+/* #pageContent #mainContent .paidleaves,
+#pageContent #mainContent .lwp,
+#pageContent #mainContent .appliedOnDate {
+	width: 126px;	
+}
+
+
+#pageContent #mainContent .applicationReason {
+	width: 250px;
+}
+
+#pageContent #mainContent .type {	
+	width: 130px;	
+}
+
+#pageContent #mainContent .status {	
+	width: 70px;	
+}
+
+#pageContent #mainContent .approve,
+#pageContent #mainContent .reject {
+	cursor: pointer;
+	width: 30px;	
+} */

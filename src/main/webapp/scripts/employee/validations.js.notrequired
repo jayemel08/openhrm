@@ -1,0 +1,23 @@
+function validateLeaveForm() {
+	return true;
+	if((document.forms["newLeaveApplicationForm"]["fromDate"].value == '') || (document.forms["newLeaveApplicationForm"]["toDate"].value == '')){
+		alert("Dates cannot be empty!");
+		return false;
+	}
+	
+	if(document.forms["newLeaveApplicationForm"]["applicationReason"].value == ''){
+		alert("You must have a reason to take leave...");
+		return false;
+	}
+	
+	var fromDate = new Date(document.forms["newLeaveApplicationForm"]["fromDate"].value);
+	var toDate = new Date(document.forms["newLeaveApplicationForm"]["toDate"].value);
+
+	if (fromDate.getTime() > toDate.getTime()) {
+		alert("\"From\" date must be less than or equal \"To\" date!");
+		return false;
+	}
+	
+	
+	return true;
+}

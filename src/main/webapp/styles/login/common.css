@@ -1,0 +1,150 @@
+.siteWrapper {
+	width: 400px;
+}
+
+#pageContent {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 50px;
+	float: left;
+}
+
+#loginFormContainer h3 {
+	font: 25px Ubuntu;
+	margin-top: 10px;
+	text-align: center;
+	color: grey;
+}
+
+#loginFormContainer, 
+#forgotPasswordFormContainer {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	width: 350px;
+	display: block;
+	/* background: #5C743D; */
+	border: 1px solid lightgrey;
+	border-radius: 12px;
+	box-shadow: 0 0 10px lightgrey;
+}
+
+#loginFormContainer #logo, 
+#forgotPasswordFormContainer #logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;	
+}
+
+#loginFormContainer #loginForm, 
+#forgotPasswordFormContainer #forgotPasswordForm {
+	float: left;
+	width: 100%;
+}
+
+#loginFormContainer #loginForm .inputBar,
+#forgotPasswordFormContainer #forgotPasswordForm .inputBar {
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	height: 40px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#loginFormContainer #loginForm img,
+#forgotPasswordFormContainer #forgotPasswordForm img {
+	float: left;
+	padding-top: 6px;
+	padding-left: 5px;
+}
+
+input {
+	color: #676F01;
+	font-size: 20px;
+	width: 200px;
+	float: left;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+#loginFormContainer #loginForm #buttons {
+	/* border: 1px solid lightgrey; */
+	float: right;
+	/* margin-right: 25px; */
+	width: 120px;
+	
+	/* border-radius: 5px; */
+	/* background: #FAFAFA; */
+	margin-bottom: 30px;
+	margin-right: 35px;
+}
+
+.button {
+	float: right;
+}
+
+#forgotPass {
+	text-decoration: none;
+	font: 15px Ubuntu;
+	color: grey;
+	margin-left: 35px;
+	height: 35px;
+	line-height: 35px;
+}
+
+#forgotPass:hover {
+	text-decoration: underline;
+}
+
+/* 
+
+#forgotPasswordFormContainer #forgotPasswordForm #buttons {
+	width: 114px;
+}
+
+#loginFormContainer #loginForm #submit, 
+#loginFormContainer #loginForm #forgotPass, 
+#forgotPasswordFormContainer #forgotPasswordForm #submit {
+	color: grey;
+	font: 15px Ubuntu;
+	width: auto;
+	float: right;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 20px 0 20px;
+	box-shadow: 0 0 2px lightgrey inset;
+	cursor: pointer;
+	height: 33px;	
+	line-height: 33px;
+	background: none;
+}
+
+#loginFormContainer #loginForm #forgotPass {
+	text-decoration: none;
+	border-left: 1px solid lightgrey;
+}
+
+#loginFormContainer #loginForm #forgotPass:hover, 
+#loginFormContainer #loginForm #submit:hover,
+#forgotPasswordFormContainer #forgotPasswordForm #submit:hover {
+	box-shadow: 0 0 10px lightgrey inset;
+}
+ */
+#loginFormContainer #loginForm #errorBlock,
+#forgotPasswordFormContainer #forgotPasswordForm #errorBlock {
+	color: crimson;
+	font: 18px Ubuntu;
+	width: 100%;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}

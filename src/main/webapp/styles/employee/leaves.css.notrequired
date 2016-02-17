@@ -1,0 +1,184 @@
+#pageContent #mainContent #newApplicationTrigger {
+	border: 1px solid lightgrey;
+	background: #EFEFEF;
+	text-align: center;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 3px 0 5px 0;
+	font: 15px Ubuntu;
+}
+
+#pageContent #mainContent #newApplicationArea {
+	border: 1px solid lightgrey;
+	margin-bottom: 20px;
+	display: none;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#pageContent #mainContent #newApplicationArea form {
+	/* border: 1px solid lightgrey; */
+	font: 18px Ubuntu;
+}
+
+#pageContent #mainContent #newApplicationArea form label{
+	height: 30px;
+	width: 200px;
+	/* border: 1px solid red; */
+	display: block;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+
+#pageContent #mainContent #newApplicationArea input,
+#pageContent #mainContent #newApplicationArea select {
+	border: 1px solid lightgrey;
+	height: 30px;
+	width: 220px;
+	/* border: 1px solid red; */
+	display: block;
+	float: left;
+	font: 15px Ubuntu;
+	padding-left: 10px;
+	padding-right: 20px;
+	line-height: 25px;
+}
+
+#pageContent #mainContent #newApplicationArea select {
+	width: 252px;
+	padding-left: 10px;
+}
+
+#pageContent #mainContent #newApplicationArea #leaveType,
+#pageContent #mainContent #newApplicationArea #date {
+	height: 30px;
+	padding-top: 20px;
+}
+
+#pageContent #mainContent #newApplicationArea #reason label {
+	margin-top: 20px;
+}
+
+#pageContent #mainContent #newApplicationArea #reason textarea{
+	height: 80px;
+	width: 712px;
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	font: 13px Ubuntu;
+	border: 1px solid lightgrey;
+	max-height: 80px;
+	max-width: 725px;
+	margin-bottom: 20px;
+}
+
+#pageContent #mainContent #newApplicationArea #submit {
+	width: 100px;
+	margin-left: 220px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 0 0 0 0;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #000;
+	cursor: pointer;
+}
+
+#pageContent #mainContent #newApplicationArea #submit:hover {
+	box-shadow: 0 0 10px #000 inset;
+}
+
+
+#pageContent #mainContent #leaveApplicationsList {
+	/* border: 1px solid lightgrey; */
+	min-height: 50px; 
+}
+
+#pageContent #mainContent .tableHeaderRow, #pageContent #mainContent .tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 60px;
+	line-height: 30px;
+	font: 13px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent .tableHeaderRow {
+	border-top: 1px solid lightgrey;
+	height: 30px;
+}
+
+#pageContent #mainContent .id,
+#pageContent #mainContent .fromToDate,
+#pageContent #mainContent .toDate,
+#pageContent #mainContent .appliedOnDate,
+#pageContent #mainContent .applicationReason,
+#pageContent #mainContent .rejectionReason,
+#pageContent #mainContent .acknowledgedOn,
+#pageContent #mainContent .type,
+#pageContent #mainContent .status,
+#pageContent #mainContent .delete {	
+	display: block;
+	float: left;
+	padding: 5px 0 0px 10px;
+	border-left: 1px solid lightgrey;
+	height: 55px;
+	overflow: auto;
+	/* width: 300px;
+	overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id,
+#pageContent #mainContent .tableHeaderRow .fromToDate,
+#pageContent #mainContent .tableHeaderRow .toDate,
+#pageContent #mainContent .tableHeaderRow .appliedOnDate,
+#pageContent #mainContent .tableHeaderRow .applicationReason,
+#pageContent #mainContent .tableHeaderRow .rejectionReason,
+#pageContent #mainContent .tableHeaderRow .acknowledgedOn,
+#pageContent #mainContent .tableHeaderRow .type,
+#pageContent #mainContent .tableHeaderRow .status,
+#pageContent #mainContent .tableHeaderRow .delete {	
+	height: 25px;
+	/* width: 300px;
+	overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id, #pageContent #mainContent .tableRow .id {
+	width: 60px;
+	border-left: none; 	
+}
+
+#pageContent #mainContent .fromToDate,
+#pageContent #mainContent .toDate,
+#pageContent #mainContent .appliedOnDate,
+#pageContent #mainContent .acknowledgedOn {
+	width: 100px;	
+}
+
+#pageContent #mainContent .applicationReason,
+#pageContent #mainContent .rejectionReason {
+	width: 180px;
+}
+
+
+#pageContent #mainContent .type {	
+	width: 80px;	
+}
+
+#pageContent #mainContent .status {	
+	width: 80px;	
+}
+
+#pageContent #mainContent .delete {
+	width: 30px;	
+}

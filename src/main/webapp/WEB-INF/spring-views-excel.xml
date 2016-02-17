@@ -1,0 +1,9 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id = "consolidatedExcel" class = "com.dhruvchaudhary.hrm.views.ConsolidatedReport" />
+	<bean id = "teamExcel" class = "com.dhruvchaudhary.hrm.views.TeamReport" />
+	<bean id = "employeeExcel" class = "com.dhruvchaudhary.hrm.views.EmployeeReport" />
+	<bean id = "completeExcel" class = "com.dhruvchaudhary.hrm.views.CompleteReport" />
+</beans>

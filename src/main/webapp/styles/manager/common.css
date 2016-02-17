@@ -1,0 +1,107 @@
+#progressOverlay {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	background: black;
+	color: white;
+	font: 30px Ubuntu;
+}
+
+#progressOverlay img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 50px;
+}
+
+#pageContent #mainContent #applicationsList {
+	/* border: 1px solid lightgrey; */
+	min-height: 50px; 
+}
+
+#pageContent #mainContent .tableHeaderRow, #pageContent #mainContent .tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 60px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent .tableHeaderRow {
+	border-top: 1px solid lightgrey;
+	height: 30px;
+}
+
+#pageContent #mainContent .id,
+#pageContent #mainContent .empName,
+#pageContent #mainContent .fromToDate,
+#pageContent #mainContent .toDate,
+#pageContent #mainContent .appliedOnDate,
+#pageContent #mainContent .applicationReason,
+#pageContent #mainContent .type,
+#pageContent #mainContent .status,
+#pageContent #mainContent .approve,
+#pageContent #mainContent .reject {	
+	display: block;
+	float: left;
+	padding: 5px 0 0px 10px;
+	border-left: 1px solid lightgrey;
+	height: 55px;
+	overflow: auto;
+	/* width: 300px;
+	overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id,
+#pageContent #mainContent .tableHeaderRow .empName,
+#pageContent #mainContent .tableHeaderRow .fromToDate,
+#pageContent #mainContent .tableHeaderRow .toDate,
+#pageContent #mainContent .tableHeaderRow .appliedOnDate,
+#pageContent #mainContent .tableHeaderRow .applicationReason,
+#pageContent #mainContent .tableHeaderRow .type,
+#pageContent #mainContent .tableHeaderRow .status,
+#pageContent #mainContent .tableHeaderRow .approve,
+#pageContent #mainContent .tableHeaderRow .reject {	
+	height: 25px;
+	/* width: 300px;
+	overflow: hidden; */
+}
+
+#pageContent #mainContent .tableHeaderRow .id, #pageContent #mainContent .tableRow .id {
+	width: 60px;
+	border-left: none; 	
+}
+
+#pageContent #mainContent .fromToDate,
+#pageContent #mainContent .toDate,
+#pageContent #mainContent .appliedOnDate {
+	width: 126px;	
+}
+
+#pageContent #mainContent .empName {
+	width: 200px;
+}
+
+#pageContent #mainContent .applicationReason {
+	width: 250px;
+}
+
+#pageContent #mainContent .type {	
+	width: 130px;	
+}
+
+#pageContent #mainContent .status {	
+	width: 70px;	
+}
+
+#pageContent #mainContent .approve,
+#pageContent #mainContent .reject {
+	cursor: pointer;
+	width: 30px;	
+}

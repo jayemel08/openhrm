@@ -1,0 +1,42 @@
+.tableHeaderRow, 
+.tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	margin-left: auto;
+	margin-right: auto;
+	color: #484848;
+}
+
+.tableHeaderRow {
+	border-top: 1px solid lightgrey;
+	background: #EDEDED;
+	height: 35px;
+}
+
+.tableHeaderRow span,
+.tableRow span {
+	padding-left: 10px;
+	border-left: 1px solid lightgrey;
+	display: block;
+	float: left;
+}
+
+.tableRow span {
+	overflow: auto;
+}
+
+.tableHeaderRow span {
+	line-height: 35px;
+	height: 35px;
+}
+
+.tableRow:nth-child(odd) {
+	background: #FAFAFA;
+}
+
+.tableRow img {
+	padding-top: 5px;
+}

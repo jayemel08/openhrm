@@ -1,0 +1,74 @@
+#message {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background: lightyellow;
+	border: 1px solid yellow;
+	text-align: center;
+	margin-bottom: 20px;
+	font: 15px Ubuntu;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#pageContent #mainContent #form {
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+#pageContent #mainContent #form label {
+	font: 15px Ubuntu;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#pageContent #mainContent #form #submit {
+	margin-left: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#pageContent #mainContent #form input {
+	border: 1px solid lightgrey;
+	padding: 5px 20px 5px 20px;
+	font: 15px Ubuntu;
+}
+/* 
+#pageContent #mainContent .tableHeaderRow {
+	border-top: 1px solid lightgrey;
+}
+
+#pageContent #mainContent .tableHeaderRow, 
+#pageContent #mainContent  .tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 30px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: none;
+} */
+
+#pageContent #mainContent .date,
+#pageContent #mainContent .type,
+#pageContent #mainContent .status,
+#pageContent #mainContent .delete {	
+	/* display: block;
+	float: left;
+	padding: 5px 0 5px 10px;
+	border-left: 1px solid lightgrey; */
+	width: 280px;
+	/* overflow: hidden; */
+}
+
+#pageContent #mainContent .delete {
+	width: 30px;
+}
+
+#pageContent #mainContent .delete img {
+	cursor: pointer;
+}

@@ -1,0 +1,217 @@
+#consolidatedReportTrigger img,
+#employeeReportTrigger img {
+	margin-top: 11px;
+	float: left;
+}
+
+#consolidatedReportTrigger span,
+#employeeReportTrigger span {
+	display: block;
+	width: 300px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#pageContent #mainContent #consolidatedReportTrigger,
+#pageContent #mainContent #employeeReportTrigger {
+	margin-left: auto;
+	margin-right: auto;
+	font: 18px Ubuntu;
+	
+	background: #EDEDED;
+	width: 1022px;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: #383838;
+	margin-bottom: 10px;
+}
+
+#pageContent #mainContent #employeeReportTrigger {
+	margin-top: 30px;
+}
+
+#consolidatedReports {
+	display: none;
+}
+
+#pageContent #mainContent #generateReport {
+	font: 18px Ubuntu;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 130px;
+	color: green;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#pageContent #mainContent #generateReport:hover {
+	color: blue;
+}
+
+#pageContent #dateSelector {
+	height: 50px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#pageContent #dateSelector input,
+#pageContent #dateSelector label {	
+	height: 30px;
+	width: 230px;
+	margin-top: 10px;
+	font: 15px Ubuntu;	
+}
+
+#pageContent #dateSelector input {
+	border: 1px solid lightgrey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* #pageContent #mainContent #backButton {
+	display: block;
+	float: left;
+	border-radius: 5px;
+	background: #AED741;
+	color: #000;
+	font: 20px Ubuntu;
+	text-decoration: none;
+	border: 3px solid #AED741;
+	padding: 3px 10px 3px 10px;
+	text-shadow: 0 0 1px #FFF;
+	box-shadow: 1px 1px 2px #000;
+	cursor: pointer;
+} */
+
+/* #pageContent #mainContent .tableHeaderRow, #pageContent #mainContent .tableRow {
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	height: 40px;
+	line-height: 30px;
+	font: 15px Ubuntu;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pageContent #mainContent .tableHeaderRow {
+	border-top: 1px solid lightgrey;
+	height: 40px;
+} */
+
+.paidleaves,
+.lwp,
+.compoff,
+.compoffgranted,
+.wfh {	
+/* 	display: block;
+	float: left;
+	padding: 5px 0 0px 10px;
+	border-left: 1px solid lightgrey;
+	height: 35px;
+	overflow: auto;
+	
+	overflow: hidden;
+ */	width: 135px;
+}
+
+/* #pageContent #mainContent .tableHeaderRow .id,
+#pageContent #mainContent .tableHeaderRow .empName,
+#pageContent #mainContent .tableHeaderRow .paidleaves,
+#pageContent #mainContent .tableHeaderRow .lwp,
+#pageContent #mainContent .tableHeaderRow .compoff,
+#pageContent #mainContent .tableHeaderRow .compoffgranted,
+#pageContent #mainContent .tableHeaderRow .wfh {	
+	height: 35px;
+	width: 137px;
+	overflow: hidden;
+} */
+
+.id {
+	width: 70px;
+	border-left: none; 	
+}
+
+.empName {
+	width: 216px;
+}
+
+.empNameWithLink {
+	width: 216px;	
+	cursor: pointer;
+}
+
+.empNameWithLink:hover {
+	background: #AED741;	
+	color: #FFFFFF;
+}
+/* #pageContent #mainContent .paidleaves,
+#pageContent #mainContent .lwp,
+#pageContent #mainContent .appliedOnDate {
+	width: 126px;	
+}
+
+
+#pageContent #mainContent .applicationReason {
+	width: 250px;
+}
+
+#pageContent #mainContent .type {	
+	width: 130px;	
+}
+
+#pageContent #mainContent .status {	
+	width: 70px;	
+}
+
+#pageContent #mainContent .approve,
+#pageContent #mainContent .reject {
+	cursor: pointer;
+	width: 30px;	
+} */
+
+#pageContent #mainContent #empCode {
+	border: 1px solid lightgrey;
+	padding: 5px 20px 5px 20px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font: 13px Ubuntu;
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* #pageContent #mainContent #employeeReports .tableHeaderRow, 
+#pageContent #mainContent #employeeReports .tableRow {
+	width: 498px;
+	border-right: none;
+} */
+/* 
+#pageContent #mainContent #employeeReports h4 {
+	font: 16px Ubuntu;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+} */
+
+/* .date,
+.type,
+.status {
+	display: block;
+	float: left;
+	padding: 5px 0 0px 10px;
+	border-right: 1px solid lightgrey;
+	height: 35px;
+	overflow: auto;
+	width: 155px;
+} */
